@@ -1,0 +1,11 @@
+<web-app>
+	<servlet>
+		<servlet-name>basic_registration</servlet-name>
+		<servlet-class>loginControlSystem.BasicRegistrationServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>basic_registration</servlet-name>
+		<url-pattern>/basicregistration</url-pattern>
+	</servlet-mapping>
+</web-app>

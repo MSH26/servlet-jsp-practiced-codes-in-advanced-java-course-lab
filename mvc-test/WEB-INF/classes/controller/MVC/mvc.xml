@@ -1,0 +1,20 @@
+<app>
+	
+	<mvc>
+		<name>RegModule</name>
+		<ctrl>controller.MVC.RegistrationController</ctrl>
+		<model></model>
+		<ctrl-url>/registration</ctrl-url>
+		<ctrl-url-pattern>/WEB-INF/classes/controller/RegistrationController.class</ctrl-url-pattern>
+		<view>/WEB-INF/view/registration-form.jsp</view>
+	</mvc>
+	
+	<mvc>
+		<name>RegModule</name>
+		<ctrl>ShowRegistrationForm</ctrl>
+		<model></model>
+		<ctrl-url>/loginView</ctrl-url>
+		<view>/WEB-INF/view/login-view.jsp</view>
+	</mvc>
+
+</app>
